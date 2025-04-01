@@ -9,7 +9,7 @@ import About from './sections/About.jsx'
 function App() {
   return (
     <>
-      <Navbar/>
+      <header><Navbar/></header>
       <Hero/>
       <About/>
     </>
