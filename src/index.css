@@ -18,7 +18,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap:0.5rem;
+  gap:5.3rem;
+  max-width:1240px;
 }
 
 .nav-buttons {
@@ -71,7 +72,7 @@ body {
 
 
 
-@media (max-width: 1240px) {
+@media (max-width: 1280px) {
   .nav-socials {
     margin-left: 0;       /* Remove right pinning */
     width: 100%;          /* Allow it to take full width */
@@ -83,16 +84,16 @@ body {
 /*Hero Section*/
 
 .hero {
-  display:flex;
-  align-items:center;
-  justify-content: center;
-  /*border: 10px solid white;*/
-  margin: 0;
-  gap: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh; /* Makes the section at least as tall as the viewport */
+  justify-content: flex-start;
 }
 
 .hero-img {
-  max-width: 47%; /* or an appropriate percentage */
+  width: clamp(300px, 80vw, 1200px); /* Minimum 300px, scales with viewport, max 1200px */
+  max-height: 90vh;
   animation: float 3s ease-in-out infinite;
 }
 
@@ -111,9 +112,12 @@ body {
   }
 
 .hero-right {
+  margin-top: 0;
   width:53%;
   display:flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .hero-right > h1 {
@@ -121,15 +125,16 @@ body {
   text-align:left;
   font-family: Pixelify Sans;
   color: #B78B83;
-  font-size: 3.2rem;
+  font-size: calc(1.8rem + 2vw);
   -webkit-text-stroke: 5px #5c2713a3;
   paint-order: stroke fill;
   font-weight: 400;
 }
 
 .hero-right >h3 {
+  margin-top: 0;
   font-family: Martel Sans;
-  font-size: 32px;
+  font-size: calc(1.2rem + 1.5vw);
   text-align: left;
   color: #c16ab4b9;
   margin-bottom: 0;
@@ -137,11 +142,39 @@ body {
 
 .hero-right >p {
   font-family: Martel Sans;
-  font-size: 22px;
+  font-size: calc(1rem + 1vw);
   text-align: left;
   color: #c16ab45f;
   margin-top: 0;
 }
+
+/* Media query for small screens */
+@media screen and (max-width: 1240px) {
+  .hero {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .hero-img {
+    width: clamp(250px, 90vw, 600px); /* Adjust image size for small screens */
+  }
+  
+  .hero-right {
+    width: 90%; /* Increase width to use more horizontal space */
+    margin-top: 2rem; /* Add space between image and text */
+    align-items: center; /* Center text elements */
+  }
+  
+  .hero-right > h1,
+  .hero-right > h3,
+  .hero-right > p {
+    text-align: center; /* Center text on small screens */
+  }
+}
+
+
+
+
 
 About Section
 .about-text-img {

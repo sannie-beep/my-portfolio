@@ -39,13 +39,15 @@ const GlowingButton = () => {
       LET'S CONNECT
       <style jsx>{`
         .connect-button {
+          width: 400px;
+          height: 90px;
           display: block;
           margin-left: 0;
           position: relative;
           padding: 16px 32px;
           border-radius: 30px;
           font-family: Pixelify Sans;
-          font-size: 28px;
+          font-size: 2.5rem;
           font-weight: bold;
           letter-spacing: 2px;
           color: #B78B83;
