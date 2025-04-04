@@ -1,0 +1,226 @@
+.project-card {
+    width: 100%;
+    max-width: 900px;  /* increased max width for larger screens */
+    border-radius: 15px;
+    background-color: #2b1b39;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin: 20px auto; /* added vertical spacing */
+    transition: all 0.3s ease;
+    background: linear-gradient(
+      180deg,
+      rgba(28, 245, 245, 0.18) 0%,
+      rgba(96, 139, 247, 0.17) 100%
+    );
+    border: 3.63px solid;
+    border-color: #b55bf16f;
+    border-radius: 30.65px;
+    padding: 0.9%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.project-card-header {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    width:100%;
+}
+
+.project-card-shine {
+  display: flex;
+  background-color: #166267;
+  width: 30%;
+  height: 10px;
+  border:solid, #166267, 0.3rem;
+  border-radius: 0.8rem;
+}
+
+.project-card-title {
+    margin: 0;
+    font-family: Pixelify Sans;
+    font-size: clamp(3rem, 2vw, 2rem); /* scales between 1.25rem and 2rem */
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #99D3CB;
+    border:solid, #166267, 0.3rem;
+    background-color: #190028;
+    padding: 0.9%;
+    text-wrap: nowrap;
+    position: relative;
+}
+  
+.project-card-content {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+  
+.project-card-image-container {
+    flex: 0 0 50%;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+  
+.project-card-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+  
+.project-card-info {
+    flex: 0 0 50%;
+    margin-top: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.project-card-description {
+    margin-bottom: 15px;
+    border-radius: 0.9rem;
+    padding: 5%;
+    border: solid, #244169;
+    width: 90%;
+    color: #99D3CB;
+    background-color: #19002888;
+}
+  
+.description-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: Martel Sans;
+    font-weight: 600;
+}
+  
+.bullet {
+    color: #B78B83;
+    margin-right: 8px;
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    list-style:georgian;
+    line-height: 1.4;
+}
+  
+.description-item > p {
+    margin: 0;
+    line-height: 1.4;
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem); /* responsive paragraph size */
+}
+  
+.project-card-skills {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+  
+.skill-tag {
+    background-color: #110028ac;
+    color: #B78B83;
+    padding: 5px 10px;
+    border-radius: 1.1rem;
+    font-family: Pixelify Sans;
+    font-size: clamp(1.7rem, 1.5vw, 1rem);
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+
+}
+
+.skill-tag:hover {
+  font-size: clamp(1.5rem, 1.5vw, 1rem);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.project-card-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .project-card-content {
+      flex-direction: column;
+    }
+    
+    .project-card-image-container,
+    .project-card-info {
+      flex: 0 0 100%;
+    }
+    
+    .project-card-image-container {
+      height: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    .project-card {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    
+    .project-card-header {
+      padding: 8px 15px;
+    }
+    
+    .project-card-info {
+      padding: 15px;
+    }
+    
+    .project-card-title {
+      font-size: clamp(1rem, 3vw, 1.5rem);
+    }
+    
+    .description-item p {
+      font-size: clamp(0.8rem, 2vw, 1rem);
+    }
+    
+    .skill-tag {
+      font-size: clamp(0.75rem, 2vw, 0.9rem);
+      padding: 4px 8px;
+    }
+    
+    .project-card-links {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .project-card-image-container {
+      height: 200px;
+    }
+    
+    .bullet {
+      font-size: clamp(0.9rem, 2vw, 1rem);
+    }
+    
+    .project-card-skills {
+      gap: 6px;
+    }
+    
+    .skill-tag {
+      padding: 3px 6px;
+      font-size: clamp(0.7rem, 2vw, 0.85rem);
+    }
+}

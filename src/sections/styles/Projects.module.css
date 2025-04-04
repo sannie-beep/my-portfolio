@@ -1,0 +1,15 @@
+.mainTitle {
+    margin-top: 10;
+    text-align: center;
+    font-family: Pixelify Sans;
+    color: #B78B83;
+    font-size: calc(1.8rem + 2vw);
+    -webkit-text-stroke: 5px #5c2713a3;
+    paint-order: stroke fill;
+    font-weight: 400;
+}
+.projectContainer {
+    display: flex;
+    gap: 2rem, 10rem;
+    flex-wrap: wrap;
+}
