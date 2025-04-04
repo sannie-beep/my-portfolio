@@ -1,0 +1,74 @@
+/* LanguageCard.module.css */
+.card {
+    width: 120px;
+    height: 120px;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-family: 'Martel Sans', sans-serif;
+  }
+  
+  .card:hover {
+    width: 370px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 10px;
+  }
+  
+  .icon {
+    min-width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    padding: 0;
+
+  }
+  
+  .icon img {
+    width: 84px;
+    height: 84px;
+    margin: 0;
+
+  }
+  
+  .details {
+    opacity: 0;
+    width: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .card:hover .details {
+    opacity: 1;
+    width: 240px;
+    padding: 20 20px;
+    margin-left: 0;
+
+  }
+  
+  .details h3 {
+    margin: 0;
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    text-wrap: wrap;
+    line-height: 2rem;
+  }
+  
+  .details p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+
+  }
