@@ -6,8 +6,8 @@ export default function Projects(){
     const projectData = {
         title: "SURF OR PAY, 2024",
         image: {
-          src: "./images/SurfOrPay.svg",
-          alt: "Surf or Pay Logo"
+          src: "./images/ProjImages/surf-2.svg",
+          alt: "Surf or Pay Slideshow"
         },
         description: [
           "A task management app using monetary forfeit to enforce productivity and penalize procrastination!",
