@@ -10,7 +10,7 @@ export default function About() {
                     <p>Hi! I’m Sanchita! A Year 2 Computer Science Student at NUS, with a passion for web design, game design and front-end development! </p>
                     <p>I love developing creative solutions that not only make lives easier, but also provide a unique, creative and pleasant user experience!</p>
                 </div>
-                <img className={styles.myImg} src="./images/aboutMeImg.png" alt="My Image"/>
+                <img className={styles.myImg} src="/images/AboutMeImg.png" alt="My Image"/>
             </div>
             <div className={styles.skillsSection}>
                 <h2>MY SKILLS</h2>
