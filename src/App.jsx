@@ -1,3 +1,4 @@
+// App.jsx
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -14,18 +15,26 @@ function App() {
   const images = [
     './images/ProjImages/SurfOrPay.svg',
     './images/ProjImages/surf-2.svg',
-    // Or use objects for more control
-    // { src: '/path/to/image1.jpg', alt: 'Description of image 1' }
   ];
+
   return (
     <>
-      <header><Navbar/></header>
-      <Hero/>
-      <About/>
-      <Projects/>
-      <Education
-        educationData={education}
-      />
+      <header>
+        <Navbar/>
+      </header>
+      <section id="home">
+        <Hero/>
+      </section>
+      <section id="about">
+        <About/>
+      </section>
+      <section id="projects">
+        <Projects/>
+      </section>
+      <section id="edu-exp">
+        <Education educationData={education} />
+      </section>
+      {/* Make sure to create a corresponding section for CONTACT if needed */}
     </>
   )
 }
