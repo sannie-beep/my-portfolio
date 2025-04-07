@@ -23,6 +23,10 @@ const GlowingButton = () => {
     setIsHovering(false);
   };
 
+  const handleClick = () => {
+    window.location.href = 'https://www.linkedin.com/in/sanchita-dhareshwar-58954125a/';
+  };
+
   return (
     <button
       ref={buttonRef}
@@ -30,6 +34,7 @@ const GlowingButton = () => {
       onMouseMove={handleMouseMove}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onClick={handleClick}
       style={{
         '--mouse-x': `${mousePosition.x}px`,
         '--mouse-y': `${mousePosition.y}px`,
