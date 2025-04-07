@@ -72,3 +72,76 @@
     text-align: center;
 
   }
+/*Format for phone screens*/
+  @media only screen and (max-width: 600px) {
+    .card {
+      width: 80px;
+      height: 80px;
+      border-radius: 16px;
+      overflow: hidden;
+      transition: width 0.3s ease-in-out;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      font-family: 'Martel Sans', sans-serif;
+    }
+    
+    .card:hover {
+      width: 270px;
+    }
+    
+    .content {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      padding-right: 10px;
+    }
+    
+    .icon {
+      min-width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0;
+      padding: 0;
+  
+    }
+    
+    .icon img {
+      width: 60px;
+      height: 60px;
+      margin: 0;
+  
+    }
+    
+    .details {
+      opacity: 0;
+      width: 0;
+      transition: opacity 0.3s ease-in-out;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    
+    .card:hover .details {
+      opacity: 1;
+      width: 240px;
+      margin-left: 0;
+    }
+    
+    .details h3 {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-align: center;
+      text-wrap: wrap;
+      line-height: 1.6rem;
+    }
+    
+    .details p {
+      margin: 0;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-align: center;
+  
+    }
+}
