@@ -101,7 +101,7 @@ const PROJECTS = [
             {
                 name: "FIGMA",
                 icon: ICON_PATH+"Figma.svg",
-                url: "https://wildevs.itch.io/pocket-explorer"
+                url: "https://www.figma.com/proto/orxXtYsaMRZjicByipDJOD/Sanchita's-Portfolio!?page-id=0%3A1&node-id=1-168&p=f&viewport=507%2C396%2C0.19&t=p0voKNnxBs6MIzmo-1&scaling=scale-down&content-scaling=fixed"
             },
             {
                 name: "GITHUB",

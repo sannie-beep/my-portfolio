@@ -77,12 +77,12 @@ const PROJECTS = [
             {
                 name: "FIGMA",
                 icon: ICON_PATH+"Figma.svg",
-                url: "https://wildevs.itch.io/pocket-explorer"
+                url: "https://www.figma.com/proto/tMlC8sXJNZCYU6MomvxQII/OptiMeet?node-id=4-547&node-type=canvas&t=24SekyLssYLSm1ia-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A547"
             },
             {
                 name: "WEBSITE",
                 icon: ICON_PATH+"Link.svg",
-                url: "https://www.youtube.com/watch?v=DuY7AIcL46c"
+                url: "https://optimeet.vercel.app/"
             }
         ]   
     },
@@ -102,12 +102,12 @@ const PROJECTS = [
             {
                 name: "FIGMA",
                 icon: ICON_PATH+"Figma.svg",
-                url: "https://wildevs.itch.io/pocket-explorer"
+                url: "https://www.figma.com/proto/orxXtYsaMRZjicByipDJOD/Sanchita's-Portfolio!?page-id=0%3A1&node-id=1-168&p=f&viewport=507%2C396%2C0.19&t=p0voKNnxBs6MIzmo-1&scaling=scale-down&content-scaling=fixed"
             },
             {
                 name: "GITHUB",
                 icon: ICON_PATH+"Github.svg",
-                url: "https://www.youtube.com/watch?v=DuY7AIcL46c"
+                url: "https://github.com/sannie-beep/my-portfolio"
             }
         ]   
     },
