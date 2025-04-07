@@ -34,7 +34,6 @@ function App() {
       <section id="edu-exp">
         <Education educationData={education} />
       </section>
-      {/* Make sure to create a corresponding section for CONTACT if needed */}
     </>
   )
 }

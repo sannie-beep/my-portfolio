@@ -30,7 +30,7 @@ export default function Navbar() {
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#projects">PROJECTS</a></li>
         <li><a href="#edu-exp">EDU</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+        {/* <li><a href="#contact">CONTACT</a></li> */}
       </ul>
       <div className="nav-socials">
         <a href="https://github.com/sannie-beep" target="_blank" rel="noreferrer">
