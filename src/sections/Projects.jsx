@@ -2,7 +2,7 @@
 const ICON_PATH = "./images/ProjIcons/";
 const PROJECTS = [
     {
-        title: "SURF OR PAY, 2025-now",
+        title: "SURF OR PAY (2025-now)",
         image: {
         src: "./images/ProjImages/SurfOrPay.svg",
         alt: "Surf or Pay image"
@@ -32,7 +32,7 @@ const PROJECTS = [
         ]   
     },
     {
-        title: "POCKET EXPLORER, 2024-now",
+        title: "POCKET EXPLORER (2024-now)",
         image: {
         src: "./images/ProjImages/PocketExplorer.svg",
         alt: "Pocket Exploerer image"
@@ -108,6 +108,31 @@ const PROJECTS = [
                 name: "GITHUB",
                 icon: ICON_PATH+"Github.svg",
                 url: "https://github.com/sannie-beep/my-portfolio"
+            }
+        ]   
+    },
+    {
+        title: "SpaceX launches browser",
+        image: {
+        src: "./images/ProjImages/SpaceX.svg",
+        alt: "SpaceX browser Image"
+        },
+        description: [
+        "Developed a SpaceX Launches Browser in Unity using C#, integrating SpaceX’s REST API to fetch and display real-time launch data",
+        "Parsed and organized key mission details into a clean, readable format with asynchronous data handling",
+        "Used Postman to test endpoints and ensure smooth API integration throughout the development process"
+        ],
+        skills: ["REST APIS", "POSTMAN", "UNITY", "C#"],
+        links: [
+            {
+                name: "BUILD",
+                icon: ICON_PATH+"Web.svg",
+                url: "https://play.unity.com/en/games/b8af5687-af26-4fe4-abed-a1ccaf1c57e4/webgl-builds/edit"
+            },
+            {
+                name: "GITHUB",
+                icon: ICON_PATH+"Github.svg",
+                url: "https://github.com/sannie-beep/SpaceXProject"
             }
         ]   
     },
