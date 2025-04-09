@@ -42,7 +42,7 @@ export default function Navbar() {
         <a href="mailto:sanchita.dhareshwar@u.nus.edu">
           <img src="./images/ic_baseline-email.svg" alt="My Email Address."/>
         </a>
-        <a className="nav-resume" href="/resume.pdf" download="Sanchita_Dhareshwar_Resume">
+        <a className="nav-resume" href="/Sanchita_Dhareshwar_Resume.pdf" download="Sanchita_Dhareshwar_Resume">
           <img src="./images/Vector.svg" alt="Download my Resume."/>
         </a>
       </div>
