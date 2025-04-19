@@ -77,7 +77,7 @@ const PROJECTS = [
             {
                 name: "FIGMA",
                 icon: ICON_PATH+"Figma.svg",
-                url: "https://www.figma.com/proto/tMlC8sXJNZCYU6MomvxQII/OptiMeet?node-id=4-547&node-type=canvas&t=24SekyLssYLSm1ia-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A547"
+                url: "https://www.figma.com/proto/tMlC8sXJNZCYU6MomvxQII/OptiMeet?node-id=4-547&p=f&t=uv1RUsEI7xVg2N4I-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A547&show-proto-sidebar=1"
             },
             {
                 name: "WEBSITE",
