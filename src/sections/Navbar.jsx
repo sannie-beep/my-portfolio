@@ -28,6 +28,7 @@ export default function Navbar() {
       <ul className="nav-buttons">
         <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
+        <li><a href="#experience">EXPERIENCE</a></li>
         <li><a href="#projects">PROJECTS</a></li>
         <li><a href="#edu-exp">EDU</a></li>
         {/* <li><a href="#contact">CONTACT</a></li> */}

@@ -45,14 +45,14 @@ const GlowingButton = () => {
       <style jsx>{`
         .connect-button {
           width: 40%;
-          height: 90px;
+          height: 100px;
           display: block;
           margin-left: 0;
           position: relative;
           padding: 0.4%;
           border-radius: 30px;
           font-family: Pixelify Sans;
-          font-size: 170%;
+          font-size: 250%;
           font-weight: bold;
           letter-spacing: 2px;
           color: #B78B83;
@@ -80,8 +80,8 @@ const GlowingButton = () => {
           height: 150px;
           top: calc(var(--mouse-y) - 75px);
           left: calc(var(--mouse-x) - 75px);
-          background: radial-gradient(circle, rgba(106,187,191,0.27727587617078087) 0%, rgba(113,60,125,0.4229341394761029) 22%, rgba(36,8,69,0.5938024868150384) 56%);
-          border-radius: 50%;
+          background: radial-gradient(circle, rgba(106, 187, 191, 0.44) 0%, rgba(113, 60, 125, 0.58) 32%, rgba(36,8,69,0.5938024868150384) 76%);
+          border-radius: 100%;
           opacity: var(--glow-opacity);
           transition: opacity 0.2s;
           z-index: -1;
