@@ -2,7 +2,32 @@
 const ICON_PATH = "./images/ProjIcons/";
 const PROJECTS = [
     {
-        title: "SURF OR PAY (2025-now)",
+        title: "PeerPrep (2025)",
+        image: {
+            src: "./images/ProjImages/PeerPrep.svg",
+            alt: "Surf or Pay image"
+        },
+        description: [
+            "School project - A full-stack web application with microservices architecture that matches users for real-time collaborative coding and tracks long term progress",
+            "Developed and integrated frontend and backend systems, including RESTful APIs and database design",
+            "Implemented real-time collaborative code editor using Websockets and integrated third-party libraries for conflict resolution."
+        ],
+        skills: ["REACT.JS", "TAILWINDCSS", "FIGMA", "RESTFUL APIS", "NODE.JS", "EXPRESS.JS", "POSTGRESQL", "WEBSOCKETS", "JAVASCRIPT", "DOCKER"],
+        links: [
+            {
+                name: "WEBSITE",
+                icon: ICON_PATH+"Link.svg",
+                url: "https://g18-peerprep.vercel.app/"
+            },
+            {
+                name: "GITHUB",
+                icon: ICON_PATH+"Github.svg",
+                url: "https://github.com/CS3219-AY2526Sem1/cs3219-ay2526s1-project-g18"
+            }
+        ]   
+    },
+    {
+        title: "SURF OR PAY (2025)",
         image: {
         src: "./images/ProjImages/SurfOrPay.svg",
         alt: "Surf or Pay image"
@@ -32,7 +57,7 @@ const PROJECTS = [
         ]   
     },
     {
-        title: "POCKET EXPLORER (2024-now)",
+        title: "POCKET EXPLORER (2024)",
         image: {
         src: "./images/ProjImages/PocketExplorer.svg",
         alt: "Pocket Exploerer image"
@@ -62,7 +87,7 @@ const PROJECTS = [
         ]   
     },
     {
-        title: "OPTIMEET (DESIGN, 2024-now)",
+        title: "OPTIMEET (DESIGN, 2024)",
         image: {
         src: "./images/ProjImages/Optimeet.svg",
         alt: "Optimeet image"

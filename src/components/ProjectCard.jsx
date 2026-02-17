@@ -36,11 +36,7 @@ const ProjectCard = ({
             ))}
           </div>
           
-          <div className="project-card-skills">
-            {skills.map((skill, index) => (
-              <span key={index} className="skill-tag">{skill}</span>
-            ))}
-          </div>
+          
           
           <div className="project-card-links">
             {links.map((link, index) => (
@@ -54,6 +50,11 @@ const ProjectCard = ({
           </div>
         </div>
       </div>
+      <div className="project-card-skills">
+            {skills.map((skill, index) => (
+              <span key={index} className="skill-tag">{skill}</span>
+            ))}
+          </div>
     </div>
   );
 };

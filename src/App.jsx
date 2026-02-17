@@ -15,15 +15,13 @@ import Experience from './sections/Experience.jsx'
 const experienceData = [
   {
     date: "May 2025 - Aug 2025",
-    title: "Spatial Algorithm Verification Intern",
+    title: "Software Engineering Intern - Simulation and Data Pipeline",
     degree: "Vilota AI, Singapore",
     subtext: "Tech Stack: Python, OpenGL, Kaolin, MCAP, Scipy, Bash Scripting",
     details: [
-      "Extended an open-source rendering software to support an end-to-end test run simulation pipeline that generates reproducible timesynced image streams for validating the algorithms of visual–inertial devices.",
-      "Designed and implemented ray-generation functions and software modules to simulate multi-camera (including fisheye) views from company's device in a scene generated from images using Gaussian splatting.",
-      "Automated calibration parsing, virtual device placement and image stream generation from  user-defined trajectories using Kaolin, MCAP libraries and scipy and OpenGL modules.",
-      "Reduced need for physical calibration and testing runs, laying the groundwork for a fully automated testbed for company's devices.",
-      
+      "Built an internal developer platform off an existing rendering engine to automate robot camera calibration and algorithm validation workflows, reducing end-to-end validation time by >10×.",
+      "Implemented a multi-camera simulation interface with a configurable frontend UI for real-time visualization and backend services managing data streaming, synchronization and export.",
+      "Engineered modular Python backend components with GPU-accelerated rendering pipelines using PyTorch and high-throughput data processing with the Foxglove MCAP API."
     ]
   }
 ];

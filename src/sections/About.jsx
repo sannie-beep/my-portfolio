@@ -42,6 +42,15 @@ export default function About() {
                         descriptionColor="#5C5F67"
                         />
                     </li>
+                                        <li><SkillsCard
+                        icon= {BASE_PATH +"ReactIcon.svg"}
+                        name= "React.js"
+                        description= "Javascript framework"
+                        backgroundColor="#00D8FF35"
+                        nameColor="#2B8DAD"
+                        descriptionColor="#047092"
+                        />
+                    </li>
                     <li><SkillsCard
                         icon= {BASE_PATH +"CSharpIcon.svg"}
                         name= "C Sharp"
@@ -51,15 +60,17 @@ export default function About() {
                         descriptionColor="#5C8666"
                         />
                     </li>
-                    <li><SkillsCard
-                        icon= {BASE_PATH +"ReactIcon.svg"}
-                        name= "React.js"
-                        description= "Javascript framework"
-                        backgroundColor="#00D8FF35"
-                        nameColor="#2B8DAD"
-                        descriptionColor="#047092"
+
+                                        <li><SkillsCard
+                        icon= {BASE_PATH +"RestAPIIcon.svg"}
+                        name= "RESTful APIs"
+                        description= "Web API design principles"
+                        backgroundColor="rgba(13, 91, 237, 0.19)"
+                        nameColor="rgb(13, 147, 237)" 
+                        descriptionColor="#0B7CBF"
                         />
                     </li>
+                    
                     <li><SkillsCard
                         icon= {BASE_PATH +"HTMLIcon.svg"}
                         name= "HTML 5"
@@ -76,6 +87,34 @@ export default function About() {
                         backgroundColor="#32649245"
                         nameColor="#5280BC"
                         descriptionColor="#2E517F"
+                        />
+                    </li>
+                    <li><SkillsCard
+                        icon= {BASE_PATH +"JavaScriptIcon.svg"}
+                        name= "JavaScript"
+                        description= "Programming Language"
+                        backgroundColor="#F0DB4F45"
+                        nameColor="#F0DB4F"
+                        descriptionColor="#B38F1B"
+                        />
+                    </li>
+
+                    <li><SkillsCard
+                        icon= {BASE_PATH +"DockerIcon.svg"}
+                        name= "Docker"
+                        description= "Container Engine"
+                        backgroundColor="rgba(13, 185, 237, 0.22)"
+                        nameColor="rgb(13, 147, 237)" 
+                        descriptionColor="#0B7CBF"
+                        />
+                    </li>
+                                                            <li><SkillsCard
+                        icon= {BASE_PATH +"NodejsIcon.svg"}
+                        name= "Nodejs"
+                        description= "JavaScript runtime env"
+                        backgroundColor="rgba(16, 95, 40, 0.53)"
+                        nameColor="rgb(77, 212, 95)"
+                        descriptionColor="rgb(41, 143, 63)"
                         />
                     </li>
                     <li><SkillsCard
