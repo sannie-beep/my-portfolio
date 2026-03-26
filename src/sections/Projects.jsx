@@ -1,6 +1,29 @@
 
 const ICON_PATH = "./images/ProjIcons/";
 const PROJECTS = [
+     {
+        title: "Pokemon Team Builder (2026)",
+        image: {
+        src: "./images/ProjImages/Pokemon.svg",
+        alt: "Pocket Exploerer image"
+        },
+        description: [
+        "A simple web app to build and visualise Pokemon team statistics with recommendations"
+        ],
+        skills: ["REACT", "TYPESCRIPT#", "RESTFULAPIS", "TAILWINDCSS"],
+        links: [
+            {
+                name: "WEBSITE",
+                icon: ICON_PATH+"Link.svg",
+                url: "https://pokemonteambuildertool.vercel.app/"
+            },
+            {
+                name: "GITHUB",
+                icon: ICON_PATH+"Github.svg",
+                url: "https://github.com/sannie-beep/Pokemon-Team-Builder"
+            }
+        ]   
+    },
     {
         title: "PeerPrep (2025)",
         image: {
