@@ -10,6 +10,7 @@ import React from "react";
 //     )
 // }
 import './Experience.css';
+import './Education.css';
 
 
 
@@ -23,17 +24,27 @@ const Experience = ({ experienceData }) => {
             <div className="timeline-exp">
                 {experienceData.map((item, index) => (
                     <div key={index} className="timeline-exp-item">
-                        <div className="timeline-exp-content">
-                            <h3 className="timeline-exp-date">{item.date}</h3>
-                            <h2 className="timeline-exp-title">{item.title}</h2>
-                            <h3 className="timeline-exp-degree">{item.degree}</h3>
-                            <p className="timeline-exp-subtext">{item.subtext}</p>
-                            <div className="timeline-exp-divider"></div>
-                            <ul className="timeline-exp-details">
-                                {item.details.map((detail, detailIndex) => (
-                                    <li key={detailIndex}>{detail}</li>
-                                ))}
-                            </ul>
+                        <div key={index} className="timeline-item">
+                            <div className="timeline-marker">
+                            { index === 0 ? (
+                                    <div className="timeline-first-dot"></div>
+                                    ) : (
+                                    <div className="timeline-dot"></div>
+                                    )}
+                                {index !== experienceData.length - 1 && <div className="timeline-line"></div>}
+                            </div>
+                            <div className="timeline-exp-content">
+                                <h3 className="timeline-exp-date">{item.date}</h3>
+                                <h2 className="timeline-exp-title">{item.title}</h2>
+                                <h3 className="timeline-exp-degree">{item.degree}</h3>
+                                <p className="timeline-exp-subtext">{item.subtext}</p>
+                                <div className="timeline-exp-divider"></div>
+                                <ul className="timeline-exp-details">
+                                    {item.details.map((detail, detailIndex) => (
+                                        <li key={detailIndex}>{detail}</li>
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 ))}

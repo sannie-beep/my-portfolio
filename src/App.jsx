@@ -13,6 +13,16 @@ import education from './constants/education.jsx'
 import Experience from './sections/Experience.jsx'
 
 const experienceData = [
+    {
+    date: "Jan 2026 - Present",
+    title: "Teaching Assistant - Software Engineering Patterns and Principles",
+    degree: "National University of Singapore",
+    subtext: "",
+    details: [
+      "Preparing for and conducting weekly tutorial sessions on SWE principles, patterns and best practices for a class of 15 students.",
+      "Mentoring student teams on semester-long full-stack software engineering projects."
+    ]
+  },
   {
     date: "May 2025 - Aug 2025",
     title: "Software Engineering Intern - Simulation and Data Pipeline",
@@ -24,6 +34,7 @@ const experienceData = [
       "Engineered modular Python backend components with GPU-accelerated rendering pipelines using PyTorch and high-throughput data processing with the Foxglove MCAP API."
     ]
   }
+
 ];
 
 
